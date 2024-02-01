@@ -3,6 +3,7 @@
 #Purpose : Ethical Hacking
 
 # I'm not responsible for dommage this tools made for Ethical Hacking only @cybersecurity
+# licence : GPL
 @ redTeam
 
  Tools :
