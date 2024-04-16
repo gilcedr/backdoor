@@ -36,6 +36,7 @@ def socket_send_command_and_receive_all_data(socket_p, command):
 
 
 s = socket.socket()
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 s.bind((HOST_IP, HOST_PORT))
 s.listen(2)
 
